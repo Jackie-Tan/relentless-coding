@@ -4,7 +4,7 @@ import * as cocoSsd from "@tensorflow-models/coco-ssd";
 
 function App() {
   // Loading the model comes with a Promise. Will proceed only when the promise is fulfilled. 
-  const modelPromise = cocoSsd.load('mobilenet_v2');
+  const modelPromise = cocoSsd.load('lite_mobilenet_v2');
   const videoRef = useRef(null);
   const canvasRef = useRef(null);
   const winWidth = window.innerWidth;
