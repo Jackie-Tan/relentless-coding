@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@tensorflow-models/coco-ssd": "^1.0.2",
+    "@tensorflow-models/coco-ssd": "^1.1.1",
     "@tensorflow/tfjs": "^1.1.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
